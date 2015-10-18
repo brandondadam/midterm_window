@@ -7,7 +7,7 @@ $(document).ready(function(){
 		if(active.next().length > 0){
 			var next = active.next();
 		} else{
-			var next = $('images img:first');
+			var next = $('#images img:first');
 		}
 		//get the next image ready by using z-index
 		next.css('z-index','2');
