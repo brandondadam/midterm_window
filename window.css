@@ -1,30 +1,6 @@
-/* Border box by default */
-html {
-	box-sizing: border-box;
+#images {
+	position:relative;
 }
-
-*, *:before, *:after {
-	box-sizing: inherit;
-
-/* Mobile */
-#image{
-	width: 50px;
-	height: auto;
-	padding: 25px;
-}
-
-/* Tablet */
-@media (min-width: 768px) {
-	#image {
-		width: 500px;
-		margin: 0 auto;
-	}
-}
-
-/* Desktop */
-@media (min-width: 1025px) {
-	#image {
-		width: 800px;
-		padding: 25px 150px;
-	}
+#images img{
+	position:absolute;
 }
