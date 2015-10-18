@@ -2,15 +2,13 @@ $(document).ready(function(){
 	setInterval(function(){
 		//get current active image
 		var active = $('images .active');
-
 		//if there is another images left then make that images next
 		//if not then go back to image 1
-		if(active.next().lenght > 0) {
+		if(active.next().length > 0){
 			var next = active.next();
-		} else {
+		} else{
 			var next = $('image img:first');
 		}
-
 		//get the next image ready by using z-index
 		next.css('z-index','2');
 
