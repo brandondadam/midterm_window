@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	setInterval(function(){
 		//get current active image
-		var active = $('images .active');
+		var active = $('#images .active');
 		//if there is another images left then make that images next
 		//if not then go back to image 1
 		if(active.next().length > 0){
