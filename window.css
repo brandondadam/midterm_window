@@ -3,4 +3,8 @@
 }
 #images img{
 	position:absolute;
+	z-index: 1;
+}
+#images img.active{
+	z-index: 3;
 }
