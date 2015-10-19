@@ -2,30 +2,30 @@ body {
 	font-family: helvetica, sans-serif;
 }
 
-@media (min-width:1025px)
-#images img{
-	z-index:1;
-	width:1000px;
-	height:auto;
+@media (min-width:1025px){
+	#images img{
+		z-index:1;
+		width:1000px;
+		height:auto;
+	}
+
+	#images img.active{
+		z-index:3;
+		width:1000px;
+		height:auto;
+	}
 }
 
-@media (min-width:1025px)
-#images img.active{
-	z-index:3;
-	width:1000px;
-	height:auto;
-}
+@media (min-width:768px){
+	#images img{
+		z-index:1;
+		width:600px;
+		height:auto;
+	}
 
-@media (min-width:768px)
-#images img{
-	z-index:1;
-	width:600px;
-	height:auto;
-}
-
-@media (min-width:768px)
-#images img.active{
-	z-index:3;
-	width:600px;
-	height:auto;
+	#images img.active{
+		z-index:3;
+		width:600px;
+		height:auto;
+	}
 }
