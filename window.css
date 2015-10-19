@@ -5,7 +5,7 @@ body {
 #images {
 	position:relative;
 	padding: 50px;
-	width:100%;
+	width:750px;
 	height:auto;
 }
 
@@ -13,13 +13,13 @@ body {
 	position:absolute;
 	z-index:1;
 	padding: 50px;
-	width:100%;
+	width:750px;
 	height:auto;
 }
 
 #images img.active{
 	z-index:3;
 	padding: 50px;
-	width:100%;
+	width:750px;
 	height:auto;
 }
