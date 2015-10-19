@@ -9,6 +9,7 @@ body {
 	height:auto;
 }
 
+@media (min-width:1025px)
 #images img.active{
 	z-index:3;
 	width:1000px;
@@ -22,6 +23,7 @@ body {
 	height:auto;
 }
 
+@media (min-width:768px)
 #images img.active{
 	z-index:3;
 	width:600px;
