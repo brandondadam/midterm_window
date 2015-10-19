@@ -12,9 +12,6 @@ body {
 }
 
 #images img{
-	background-position: center;
-	background-color: black;
-	background-size:800, 800;
 	position:absolute;
 	z-index:1;
 
@@ -24,10 +21,6 @@ body {
 
 #images img.active{
 	z-index:3;
-	background-position: center;
-	background-color: black;
-	background-size:800, 800;
-
 	width:750px;
 	height:auto;
 }
