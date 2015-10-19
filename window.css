@@ -4,17 +4,19 @@ body {
 
 #images {
 	position:relative;
+	width:500px;
+	height:auto;
 }
 
 #images img{
 	position:absolute;
 	z-index:1;
-	width:100%;
+	width:500px;
 	height:auto;
 }
 
 #images img.active{
 	z-index:3;
-	width:100%;
+	width:500px;
 	height:auto;
 }
