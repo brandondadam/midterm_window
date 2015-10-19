@@ -1,8 +1,14 @@
 html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
+}
+
+body{
+	font-family: helvetica: sans-serif;
+	font-style: oblique;
 }
 
 /* Mobile */
