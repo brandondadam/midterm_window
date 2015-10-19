@@ -12,7 +12,7 @@ $(document).ready(function(){
 		//get the next image ready by using z-index
 		next.css('z-index','2');
 		//fading out the class
-		active.fadeOut(2000,function(){
+		active.fadeOut(1500,function(){
 			//move active image back, show it and remove the class
 			active.css('z-index', '1').show().removeClass('active');
 			//make next image the active one
