@@ -1,4 +1,4 @@
-$(document).load(function(){
+$(document).onload(function(){
 	setInterval(function(){
 		//get current active image
 		var active = $('#images .active');
