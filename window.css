@@ -3,7 +3,9 @@ body {
 }
 
 #images {
-	border:10px solid black;
+	background-position: center;
+	background-color: black;
+	background-size:800, 800;
 	margin-top:200px;
 	margin-left:auto;
 	margin-right:auto;
