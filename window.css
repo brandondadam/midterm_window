@@ -18,14 +18,6 @@ h1{
 }
 
 /* Mobile */
-#page h1{
-	width: 100%;
-	padding: 25px;
-	font-size: 14px;
-	margin-top: 400px;
-	line-height: 1.6em;
-}
-
 #images {
 	position:relative;
 	width:100%;
@@ -44,6 +36,13 @@ h1{
 	z-index:3;
 	width:100%;
 	height:auto;
+}
+
+#page {
+	width: 100%;
+	padding: 25px;
+	font-size: 14px;
+	line-height: 1.6em;
 }
 
 /* Tablet */
