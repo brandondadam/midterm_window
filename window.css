@@ -19,8 +19,6 @@ html {
 	z-index:1;
 	width:100%;
 	height:auto;
-	padding: 25px;
-	padding-left: 100%;
 	background: black;
 
 }
@@ -45,8 +43,6 @@ html {
 		z-index:1;
 		width:600px;
 		height:auto;
-		padding: 25px;
-		padding-left: 100%;
 		background: black;
 	}
 
@@ -72,8 +68,6 @@ html {
 
 		width:850px;
 		height:auto;
-		padding: 25px;
-		padding-left: 100%;
 		background: black;
 	}
 
