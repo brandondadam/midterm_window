@@ -3,8 +3,9 @@ body {
 }
 
 #images {
-	background: black;
 	padding-left: 20px;
+	background: black;
+
 	border: none;
 	margin-top:200px;
 	margin-left:auto;
