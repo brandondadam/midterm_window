@@ -1,13 +1,9 @@
-html {
-	box-sizing: border-box;
+body {
+	font-family: helvetica, sans-serif;
 }
 
-#images {
-	position:relative;
-}
-
+@media (min-width:1025px)
 #images img{
-	position:absolute;
 	z-index:1;
 	width:1000px;
 	height:auto;
@@ -16,5 +12,18 @@ html {
 #images img.active{
 	z-index:3;
 	width:1000px;
+	height:auto;
+}
+
+@media (min-width:768px)
+#images img{
+	z-index:1;
+	width:600px;
+	height:auto;
+}
+
+#images img.active{
+	z-index:3;
+	width:600px;
 	height:auto;
 }
