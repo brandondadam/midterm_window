@@ -18,7 +18,7 @@ h1{
 }
 
 /* Mobile */
-#page {
+#page h1{
 	width: 100%;
 	padding: 25px;
 	font-size: 14px;
