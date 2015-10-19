@@ -1,17 +1,20 @@
+body {
+	font-family: helvetica, sans-serif;
+}
+
 #images {
 	position:relative;
-	width: 100%;
-	height: auto;
 }
 
 #images img{
+	position:absolute;
 	z-index:1;
-	width: 100%;
-	height: auto;
+	width:100%;
+	height:auto;
 }
 
 #images img.active{
 	z-index:3;
 	width:100%;
-	height: auto;
+	height:auto;
 }
