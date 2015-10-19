@@ -10,8 +10,6 @@ html {
 	position:relative;
 	width:100%;
 	height:auto;
-	padding: 50px;
-	background: black;
 	margin-left:auto;
 	margin-right:auto;
 }
@@ -19,9 +17,11 @@ html {
 #images img{
 	position:absolute;
 	z-index:1;
-
 	width:100%;
 	height:auto;
+	padding: 50px;
+	background: black;
+
 }
 
 #images img.active{
@@ -35,8 +35,6 @@ html {
 		position:relative;
 		width:600px;
 		height:auto;
-		padding: 50px;
-		background: black;
 		margin-left:auto;
 		margin-right:auto;
 	}
@@ -44,9 +42,10 @@ html {
 	#images img{
 		position:absolute;
 		z-index:1;
-
 		width:600px;
 		height:auto;
+		padding: 50px;
+		background: black;
 	}
 
 	#images img.active{
@@ -61,8 +60,6 @@ html {
 		position:relative;
 		width:850px;
 		height:auto;
-		padding: 50px;
-		background: black;
 		margin-left:auto;
 		margin-right:auto;
 	}
@@ -73,6 +70,8 @@ html {
 
 		width:850px;
 		height:auto;
+		padding: 50px;
+		background: black;
 	}
 
 	#images img.active{
