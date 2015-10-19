@@ -3,15 +3,15 @@ body {
 }
 
 #images {
-	background-position: center;
-	background-color: black;
-	background-size:800, 800;
 	margin-top:200px;
 	margin-left:auto;
 	margin-right:auto;
 	position:relative;
 	width:750px;
 	height:auto;
+	background-position: center;
+	background-color: black;
+	background-size:800, 800;
 }
 
 #images img{
