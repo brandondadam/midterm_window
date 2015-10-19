@@ -20,7 +20,6 @@ h1{
 /* Mobile */
 #page {
 	width: 100%;
-	padding: 25px;
 	font-size: 14px;
 	line-height: 1.6em;
 }
@@ -50,7 +49,6 @@ h1{
 	#page {
 		width: 600px;
 		font-size: 16px;
-		margin: auto;
 	}
 
 	#images {
@@ -79,7 +77,6 @@ h1{
 	#page {
 		width: 960px;
 		font-size: 18px;
-		padding: 25px 150px;
 	}
 
 	#images {
